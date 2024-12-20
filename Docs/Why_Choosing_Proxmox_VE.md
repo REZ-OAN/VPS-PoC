@@ -23,4 +23,4 @@ Proxmox VE integrates with **LDAP**, **Active Directory**, and **two-factor auth
 
 Proxmox VE supports **backup** and **restore** for both VMs and containers. Backups can be scheduled and performed live without interrupting the services. Proxmox supports full and incremental backups. **Restore** operations allow recovering the exact state of a VM or container.
 
-**Proxmox VE also provides CLI-Tools and Web-UI for all of it's services.**
+**Proxmox VE also provides CLI-Tools and Web-UI for managing all the services it provides.**
