@@ -8,4 +8,4 @@ In this repository I will guide you to a whole process how and why I came with a
 - [Hosting Types](./Docs/Hosting_Types.md)
 - [VPS-POC towards DevOps and Cloud Engineering](./Docs/VPS-POC_towards_DevOps_and_Cloud_Engineering.md)
 - [Why Choosing Proxmox VE](./Docs/Why_Choosing_Proxmox_VE.md)
-- [Proxmox VE Architechture](./Docs/ProxmoxVE_ Architechture.md)
+- [Proxmox VE Architechture](./Docs/ProxmoxVE_Architechture.md)
