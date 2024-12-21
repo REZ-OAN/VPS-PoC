@@ -35,6 +35,7 @@ Logical Volume Management (`LVM`) is a tool in Linux that makes managing disk sp
 # LVM Working Architechture and Components
 
 ![lvm-working-architecture-&-components](../Images/LVM-Working1.jpg)
+
 Logical Volume Manager (LVM) provides flexible disk management by layering its components as follows:
 
 1. **Physical Volumes (PV)**:
