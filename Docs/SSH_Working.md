@@ -11,4 +11,14 @@
 | Key-based Authentication | Public-Private key authentication for enhanced security, reducing reliance on passwords                                           |
 | Command Execution        | A user can execute commands on remote servers without logging in interactively.                                                   |
 # Overview of the SSH working
+
 ![working-steps](../Images/SSH-Working.jpg)
+
+| Steps                 | Description                                                                                                                                            |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Initial Connection    | The client connects to the server on port 22, establishing basic network connectivity (unencrypted).                                                   |
+| Version Negotiation   | Both exchange SSH protocol versions (e.g., SSH-2.0) to ensure compatibility.                                                                           |
+| Algorithm Negotiation | They agree on the strongest shared algorithms for key exchange, encryption, and MACs.                                                                  |
+| Key Exchange          | Using Diffie-Hellman, both sides create a shared secret (session key) for encrypted communication.                                                     |
+| Authentication        | The client proves identity through: <br>• Public key authentication (preferred) <br>• Password authentication (less secure)                            |
+| Session Establishment | After authentication, a secure tunnel is established for: <br>• Encrypted commands <br>• File transfers (SCP/SFTP) <br>• Port forwarding and tunneling |
