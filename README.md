@@ -18,13 +18,13 @@ In this repository I will guide you to a whole process how and why I came with a
 					 SSD  -> 250GB 
 				 </details>
 - Setup any of the linux distribution as per your need.
-<details>
-		 <summary>
-			I've Used
-		 </summary>
-		 Linux Distribution -> Ubuntu 22.04 LTS
-		 Because I want to use Type-2 Hypervisor, I only need to understand the VPS working. If you're concern about performance overhead you can setup any Type-1 Hypervisor.
-</details>
+	<details>
+			 <summary>
+				I've Used
+			 </summary>
+			 Linux Distribution -> Ubuntu 22.04 LTS
+			 Because I want to use Type-2 Hypervisor, I only need to understand the VPS working. If you're concern about performance overhead you can setup any Type-1 Hypervisor.
+	</details>
 
 # My Findings
 - [Security, Reliability, Flexibility](./Docs/Security_Reliability_Flexibility.md)
@@ -33,7 +33,7 @@ In this repository I will guide you to a whole process how and why I came with a
 - [Why Choosing Proxmox VE](./Docs/Why_Choosing_Proxmox_VE.md)
 - [ProxmoxVE Architechture](./Docs/ProxmoxVE_Architechture.md)
 - [Hypervisor Types](./Docs/Hypervisor%20Types.md)
+- [SSH Working](./Docs/SSH_Working.md)
 # Steps To Follow
 - [Setup Host Machine](./Docs/Setup%20Linux%20Distribution%20On%20Host%20Machine.md)
 - [Setup Remote Access](./Docs/Setup%20Remote%20Access%20Using%20OpenSSH.md)
--
