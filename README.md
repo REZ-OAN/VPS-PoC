@@ -40,3 +40,4 @@ In this repository I will guide you to a whole process how and why I came with a
 - [Network Architechture of My Setup](./Docs/network_diagram.md)
 - [Setup Remote Access](./Docs/Setup%20Remote%20Access%20Using%20OpenSSH.md)
 - [LVM Hands on](./Docs/lvm_commands.md)
+- [Reduce LV's size using LVM](./Docs/reduce_size_of_lv.md)
