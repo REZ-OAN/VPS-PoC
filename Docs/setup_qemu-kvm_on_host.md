@@ -21,7 +21,7 @@ If you see value more than 0 then you're good to go.
 
 ```bash
 sudo apt update
-sudo apt install qemu-kvm libvirt-daemon libvirt-clients libvirt-daemon-system bridge-utils 
+sudo apt install qemu-kvm libvirt-daemon dnsmasq iptables net-tools iproute2 netcat traceroute dnsutils dmidecode libvirt-clients libvirt-daemon-system bridge-utils 
 ```
 ## Checking KVM is Installed and Enabled
 
@@ -42,7 +42,18 @@ sudo systemctl enable --now libvirtd
 ```bash
 sudo usermod -aG libvirt,kvm $USER
 ```
+## Copy the `libvirt.conf` file to `.config/libvirt` 
 
-Now reboot your system to take effect.
+```bash
+mkdir -p ~/.config/libvirt
+cp -rv /etc/libvirt/libvirt.conf ~/.config/libvirt/
+```
+## Change Permissions of the file
+
+```bash
+sudo chown <USER>:<GROUP> ~/.config/libvirt/libvirt.conf
+```
+
+Now change the file config by uncomment this line `uri_default = "qemu:///system"`. Now reboot your system to take effect.
 
 [Goto Main](../README.md)
