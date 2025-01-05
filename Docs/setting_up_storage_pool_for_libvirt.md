@@ -46,7 +46,7 @@ virsh pool-list --all
 
 ![verification-of-storage-pool](../Images/storage-pool-verify.png)
 
-## What happens after difining this storage pool in libvirt?
+## What happens after defining this storage pool in libvirt?
 
 1. **Libvirt associates the pool with the `vgubuntu` volume group**
     - It allows libvirt to manage logical volumes within the VG (volume group) for VM storage.
