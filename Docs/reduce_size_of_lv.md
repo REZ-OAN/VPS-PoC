@@ -36,3 +36,5 @@ sudo vgdisplay <vg_name>
 ```
 
 Look at `Free PE / Size` if the value is your desired space you want to free then you're done with **Reducing Size** and this free space can be used to create new logical volumes.
+
+[Goto Main](../README.md)

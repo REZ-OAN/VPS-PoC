@@ -71,3 +71,5 @@ Physical storage is initialized as PVs, grouped into VGs, and divided into LVs
 |**Backup**|Backups must consider LVM’s structure. Using regular tools may not work properly, so LVM-aware solutions are necessary. Regularly backing up metadata helps prevent loss during failures.|
 # Hands On Commands
 - [Documentation for Commands](./lvm_commands.md)
+
+[Goto Main](../README.md)

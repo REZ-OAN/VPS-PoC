@@ -4,3 +4,5 @@
 - Boot your PC/Machine using the bootable USB.
 - Choose Advanced Storage Partition with `LVM`.
 - If network setup is not automatically configured you can see this [Doc](https://ubuntu.com/server/docs/configuring-networks)
+[Goto Main](../README.md)
+

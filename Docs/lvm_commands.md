@@ -175,3 +175,5 @@ sudo mount -a
 - If no errors occur, the configuration is correct, and the volume will mount automatically on reboot.
 
 There is lot more stuffs on `LVM` you can check this out [Doc](https://liquidweb.com/blog/lvm-in-linux-to-manage-storage-devices)
+
+[Goto Main](../README.md)

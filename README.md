@@ -12,18 +12,17 @@ In this repository I will guide you to a whole process how and why I came with a
 					<summary>
 						Configuration of my PC
 					 </summary>
-					 CPU -> Corei7 7th gen
-					 RAM -> 12GB
-					 HDD -> 1TB
-					 SSD  -> 250GB 
+					 CPU -> Corei7 7th gen <br>
+					 RAM -> 12GB <br>
+					 HDD -> 1TB <br>
+					 SSD  -> 250GB <br>
 				 </details>
 - Setup any of the linux distribution as per your need.
 	<details>
 			 <summary>
 				I've Used
 			 </summary>
-			 Linux Distribution -> Ubuntu 22.04 LTS
-			 Because I want to use Type-2 Hypervisor, I only need to understand the VPS working. If you're concern about performance overhead you can setup any Type-1 Hypervisor.
+			 Linux Distribution -> Ubuntu 22.04 LTS <br>
 	</details>
 
 # My Findings
@@ -41,3 +40,4 @@ In this repository I will guide you to a whole process how and why I came with a
 - [Setup Remote Access](./Docs/Setup%20Remote%20Access%20Using%20OpenSSH.md)
 - [LVM Hands on](./Docs/lvm_commands.md)
 - [Reduce LV's size using LVM](./Docs/reduce_size_of_lv.md)
+- [Setup QEMU-KVM and libvirt](./Docs/setup_qemu-kvm_libvirt_on_host.md)

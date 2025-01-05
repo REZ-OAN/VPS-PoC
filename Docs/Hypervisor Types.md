@@ -14,3 +14,5 @@
 ![type-1](../Images/HypervisorType-1.jpg)
 # Architechture with Hypervisor Type-2
 ![type-2](../Images/HypervisorType-2.jpg)
+
+[Goto Main](../README.md)

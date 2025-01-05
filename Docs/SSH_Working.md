@@ -22,3 +22,5 @@
 | Key Exchange          | Using Diffie-Hellman, both sides create a shared secret (session key) for encrypted communication.                                                     |
 | Authentication        | The client proves identity through: <br>• Public key authentication (preferred) <br>• Password authentication (less secure)                            |
 | Session Establishment | After authentication, a secure tunnel is established for: <br>• Encrypted commands <br>• File transfers (SCP/SFTP) <br>• Port forwarding and tunneling |
+
+[Goto Main](../README.md)
