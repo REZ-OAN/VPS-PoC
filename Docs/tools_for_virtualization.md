@@ -48,11 +48,11 @@ These tools can be interacted with by users / services.
 These tools are used to support the system tools listed above.
 
 - `dnsmasq`: light-weight DNS/DHCP server. Primarily used for allocating IPs to VMs.
-- `dnsutils`: used for DHCP resolution; probably on your distro already
 - `dmidecode`: prints computers SMBIOS table in readable format. Optional dependency, depending on your package manager.
-- `ebtables`: used for setting up NAT networking the host
+- `iptables`: used for setting up NAT networking the host.
 - `bridge-utils`: used to create bridge interfaces easily. (tool has been [deprecated since 2016}(https://lwn.net/Articles/703776), but still used)
-- `openssh-server`: enables remote management over SSH
+- `openssh-server`: enables remote management over SSH.
+
  At a high-level, this diagram demonstrates the key relationships to understand:
 
 ![tools-demonstration](../Images/tools_workflow.jpg)
@@ -66,3 +66,5 @@ These tools are used to support the system tools listed above.
 3. **Libvirt Manages Everything:**
     - Libvirt interacts with QEMU and KVM to define and manage VMs.
     - Provides a unified interface for tools like `virsh`, GUIs like Virt-Manager, and programming languages through bindings (e.g., `libvirt-go`).
+
+[Goto Main](../README.md)
