@@ -21,7 +21,7 @@ If you see value more than 0 then you're good to go.
 
 ```bash
 sudo apt update
-sudo apt install qemu-kvm bridge-utils 
+sudo apt install qemu-kvm libvirt-daemon libvirt-clients libvirt-daemon-system bridge-utils 
 ```
 ## Checking KVM is Installed and Enabled
 
@@ -30,10 +30,17 @@ sudo kvm-ok
 ```
 
 ![kvm-ok](../Images/kvm-ok.png)
-## Add your user to the  `kvm` groups for permission
+
+## Start and enable the `libvirtd` service
 
 ```bash
-sudo usermod -aG kvm $USER
+sudo systemctl enable --now libvirtd
+```
+
+## Add your user to the `libvirt` and `kvm` groups for permission
+
+```bash
+sudo usermod -aG libvirt,kvm $USER
 ```
 
 Now reboot your system to take effect.
