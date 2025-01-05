@@ -1,12 +1,15 @@
 # Building Your Own VPS
 # Table of Contents
+
 - [Introduction](#introduction)
 - [Fundamental Requirements](#fundamental-requirements)
 - [My Findings](#my-findings) 
 - [Steps To Follow](#steps-to-follow)
 # Introduction
-In this repository I will guide you to a whole process how and why I came with an idea to building a VPS from scratch. The documents are provided here are part of my learnings and understandings throughout the process of building a VPS. I will update this repository as per my learnings and towards making a VPS. 
+
+In this repository I will guide you to a whole process how and why I come up with an idea to building a VPS from scratch. The documents are provided here are part of my learnings and understandings throughout the process of building a VPS. I will update this repository as per my learnings and towards making a VPS. 
 # Fundamental Requirements
+
 - A `PC`or `RaspberryPI` (I am using my old pc ASUS k556UR)
 				<details>
 					<summary>
@@ -26,6 +29,7 @@ In this repository I will guide you to a whole process how and why I came with a
 	</details>
 
 # My Findings
+
 - [Security, Reliability, Flexibility](./Docs/Security_Reliability_Flexibility.md)
 - [Hosting Types](./Docs/Hosting_Types.md)
 - [VPS-POC towards DevOps and Cloud Engineering](./Docs/VPS-POC_towards_DevOps_and_Cloud_Engineering.md)
@@ -36,10 +40,12 @@ In this repository I will guide you to a whole process how and why I came with a
 - [Logical Volume Management](./Docs/logical_volume_manager.md)
 - [Kernel-based Virtual Machine](./Docs/understanding-kvm.md)
 # Steps To Follow
+
 - [Setup Host Machine](./Docs/Setup%20Linux%20Distribution%20On%20Host%20Machine.md)
-- [Network Architechture of My Setup](./Docs/network_diagram.md)
+- [Network Architechture Of My Setup](./Docs/network_diagram.md)
 - [Setup Remote Access](./Docs/Setup%20Remote%20Access%20Using%20OpenSSH.md)
-- [LVM Hands on](./Docs/lvm_commands.md)
-- [Reduce LV's size using LVM](./Docs/reduce_size_of_lv.md)
+- [LVM Hands On](./Docs/lvm_commands.md)
+- [Reduce LV's Size Using LVM](./Docs/reduce_size_of_lv.md)
 - [Tools For Virtualization](./Docs/tools_for_virtualization.md)
 - [Setup QEMU-KVM-libvirt](./Docs/setup_qemu-kvm_on_host.md)
+- [Setting Up Storage Pool For `libvirt`](./Docs/setting_up_storage_pool_for_libvirt.md)
