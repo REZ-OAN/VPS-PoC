@@ -49,3 +49,4 @@ In this repository I will guide you to a whole process how and why I come up wit
 - [Tools For Virtualization](./Docs/tools_for_virtualization.md)
 - [Setup QEMU-KVM-libvirt](./Docs/setup_qemu-kvm_on_host.md)
 - [Setting Up Storage Pool For `libvirt`](./Docs/setting_up_storage_pool_for_libvirt.md)
+- [Manually Create VM]
